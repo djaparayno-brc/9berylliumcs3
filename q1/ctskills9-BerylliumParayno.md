@@ -79,25 +79,28 @@ Analyze and record how many units of each food are sold and identify the pattern
 ## Step 4: Draw a flowchart or write a pseudocode for the identified sub-problem
 
 
-START
-Display the available food items and its prices.
-Student chooses what food item/s to buy.
-Check if food items are available
-IF an item is unavailable:
-    Display “Item is unavailable, choose another one.”
-    The student selects another one
-ENDIF
-Calculate total price of purchase
-Display the total price
-Ask student for payment
-IF payment is less than total price
-    Display "Insufficient payment"
-    Ask for payment again
-ELSE
-    Calculate change
-    Display change
-    Give order to student
-ENDIF
+1. START
+
+2. Display the available food items and its prices.
+
+3. Student chooses what food item/s to buy.
+
+4. Check if food items are available
+
+5. If an item is unavailable, display “Item is unavailable, choose another one.” Then, the student
+ selects another one. ENDIF
+
+6. Calculate total price of purchase
+
+7. Display the total price
+
+8. Ask student for payment
+
+9. IF payment is less than total price, display "Insufficient payment."
+
+10. Ask for payment again
+
+11. IF payment is not less than total price, calculate change, display change, and give order to student. END IF.
 
 ## REFLECTION:
 For me, decomposing the canteen problem makes it easier to understand because the main problem can be divided into smaller tasks such as ordering, payment, inventory, and queue management. Each task can then be addressed using computational thinking skills. These computational thinking skills are as such: decomposition breaks the process into manageable parts, abstraction focuses on the important information needed by the system, pattern recognition helps identify commonly purchased foods, and algorithm design creates clear steps, which I did in the form of pseudocode, that a computer can follow. This approach could help make the canteen faster and more organized while reducing calculation errors and waiting time.

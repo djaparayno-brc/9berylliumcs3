@@ -102,5 +102,7 @@ Analyze and record how many units of each food are sold and identify the pattern
 
 11. IF payment is not less than total price, calculate change, display change, and give order to student. END IF.
 
+12. END
+
 ## REFLECTION:
 For me, decomposing the canteen problem makes it easier to understand because the main problem can be divided into smaller tasks such as ordering, payment, inventory, and queue management. Each task can then be addressed using computational thinking skills. These computational thinking skills are as such: decomposition breaks the process into manageable parts, abstraction focuses on the important information needed by the system, pattern recognition helps identify commonly purchased foods, and algorithm design creates clear steps, which I did in the form of pseudocode, that a computer can follow. This approach could help make the canteen faster and more organized while reducing calculation errors and waiting time.

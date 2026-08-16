@@ -80,24 +80,16 @@ Analyze and record how many units of each food are sold and identify the pattern
 
 
 START
-
 Display the available food items and its prices.
-
 Student chooses what food item/s to buy.
-
 Check if food items are available
-
 IF an item is unavailable:
     Display “Item is unavailable, choose another one.”
     The student selects another one
 ENDIF
-
 Calculate total price of purchase
-
 Display the total price
-
 Ask student for payment
-
 IF payment is less than total price
     Display "Insufficient payment"
     Ask for payment again

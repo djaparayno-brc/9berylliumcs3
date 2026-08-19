@@ -5,4 +5,4 @@
 ## Quarter 1
 
 - [Computational Thinking Skills - Smart School Canteen Queue](ctskills9-BerylliumParayno.md)
-- [Chinese Zodiac](zodiac9-BerylliumParayno.py)
+- [Chinese Zodiac Exercise](zodiac9-BerylliumParayno.md)

@@ -66,3 +66,12 @@ else:
 
     print("Your Chinese Zodiac Sign is:", zodiac[(year - 1900) % 12])
 ```
+## Screenshots
+
+### Valid Output
+
+![Valid Zodiac Output](Screenshot-Zodiac-ValidInput.png)
+
+### Invalid Output
+
+![Invalid Zodiac Output](Screenshot-Zodiac-InvalidInput.png)

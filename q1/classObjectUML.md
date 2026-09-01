@@ -1,3 +1,5 @@
+# Dexter Josue A. Parayno
+# 9 - Beryllium
 # SG4 - Understanding Classes and Objects
 ## Class Name: Musical Instrument
 ## Class Description: All musical instruments have their own names, types, and the way they are played.

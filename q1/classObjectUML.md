@@ -10,7 +10,7 @@
 | price | integer | How much ($) the musical instrument costs |
 ## Methods
 | Method | Description |
-|---|---|| | |
+|---|---|
 | play | Play the musical instrument. |
 | create | Create the musical instrument. |
 | buy | Buy the musical instrument. |

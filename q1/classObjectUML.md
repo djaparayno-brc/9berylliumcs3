@@ -24,6 +24,6 @@
 ### Why did you choose this class?
 I chose this class because musical instruments are so fascinating; be it pianos, guitars, drums, or triangles.  Moreover, this class can help those who want to play, buy, or create the musical instrument/s they want using the properties (name, type, primary material, and price.)
 ### Which property is the most important? Why?
-In my perspective, the most important property is "name" because you cannot point out or distinguish musical instruments without giving them a name. For example; viola and violin; those two almost look the same, right? The name is the one that distinguishes them. It's just like giving twins different names to differentiate them.
+In my perspective, the most important property is "name" because you cannot point out or distinguish musical instruments without giving them a name. For example; viola and violin; those two almost look the same, right? Their names are the ones that makes them distinct to each other. It's just like giving twins different names to differentiate them.
 ### Which method is the most useful? Why?
 For me, the most important method is "create." You cannot play and buy a musical instrument if it hasn't been created yet; you would be playing or buying nothing.

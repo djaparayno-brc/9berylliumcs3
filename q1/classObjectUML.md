@@ -17,6 +17,7 @@
 
 ## Class Diagram
 ![Class Diagram](q1/ClassDiagram.png)
+
 ## Design Explanation
 ### Why did you choose this class?
 I chose this class because musical instruments are so fascinating; be it pianos, guitars, drums, or triangles.  Moreover, this class can help those who want to play, buy, or create the musical instrument/s they want using the properties (name, type, primary material, and price.)

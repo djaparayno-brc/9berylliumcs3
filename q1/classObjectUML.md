@@ -16,7 +16,7 @@
 | buy | Buy the musical instrument. |
 
 ## Class Diagram
-![Class Diagram](q1/ClassDiagram.png)
+![Class Diagram](ClassDiagram.png)
 
 ## Design Explanation
 ### Why did you choose this class?

@@ -21,6 +21,10 @@ No major changes were needed from my original design.
 ![Object Diagram](ObjectDiagram.png)
 ## Analysis
 ### Why did you make your chosen attribute private?
+- I made the type and primary material private to protect the object's information. They can only be changed through class methods.
 ### Which method changes the state of your object?
+- The apply_discount() method changes the price of the object.
 ### How did your two objects demonstrate that instances are independent?
+- Each object has its own name, type, material, and price. Changing one object does not change the other.
 ### What is the difference between your class diagram and your object diagram?
+- The class diagram shows the blueprint of the class. The object diagram shows the actual objects and their values.

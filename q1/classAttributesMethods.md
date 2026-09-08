@@ -12,7 +12,7 @@ No major changes were needed from my original design.
 | primary material | str | private | The material is an internal property that should be protected. |
 | price | int | public | The price can be viewed directly by users. |
 ## Updated UML Class Diagram
-![Class Diagram](ClassDiagramSG5(1)(1).png)
+![Class Diagram](ClassDiagramSG5(1)(2).png)
 ## Python Implementation
 [View Python Source](classImplementation.py)
 ## Test Run

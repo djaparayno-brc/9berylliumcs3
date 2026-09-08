@@ -18,7 +18,7 @@ No major changes were needed from my original design.
 ## Test Run
 ![Test Run](classTestRun.png)
 ## Object Diagram
-![Object Diagram](objectDiagram.png)
+![Object Diagram](ObjectDiagram.png)
 ## Analysis
 ### Why did you make your chosen attribute private?
 ### Which method changes the state of your object?

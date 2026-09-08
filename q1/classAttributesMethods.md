@@ -12,14 +12,14 @@ No major changes were needed from my original design.
 | | | | |
 | | | | |
 ## Updated UML Class Diagram
-![Class Diagram](images/classDiagramSG5.png)
+![Class Diagram](ClassDiagramSG5.png)
 ## Python Implementation
 
 [View Python Source](classImplementation.py)
 ## Test Run
-![Test Run](images/classTestRun.png)
+![Test Run](classTestRun.png)
 ## Object Diagram
-![Object Diagram](images/objectDiagram.png)
+![Object Diagram](objectDiagram.png)
 ## Analysis
 ### Why did you make your chosen attribute private?
 ### Which method changes the state of your object?

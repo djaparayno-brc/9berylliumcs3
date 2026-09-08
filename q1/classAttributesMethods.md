@@ -7,14 +7,13 @@ No major changes were needed from my original design.
 ## Visibility Decisions
 | Attribute | Data Type | Visibility | Reason |
 |---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+| name | str | public | The instrument's name can be viewed by anyone. |
+| type | str | private | The type should only be changed through class methods. |
+| primary material | str | private | The material is an internal property that should be protected. |
+| price | int | public | The price can be viewed directly by users. |
 ## Updated UML Class Diagram
-![Class Diagram](ClassDiagramSG5.png)
+![Class Diagram](ClassDiagramSG5(1)(1).png)
 ## Python Implementation
-
 [View Python Source](classImplementation.py)
 ## Test Run
 ![Test Run](classTestRun.png)

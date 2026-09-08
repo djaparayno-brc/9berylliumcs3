@@ -1,6 +1,5 @@
 class MusicalInstrument:
     def __init__(self, name: str, type: str, primary_material: str, price: int):
-        """Initializes a new musical instrument object."""
         self.name = name
         self.type = type
         self.primary_material = primary_material

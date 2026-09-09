@@ -8,3 +8,4 @@
 - [Chinese Zodiac Exercise](q1/zodiac9-BerylliumParayno.md)
 - [ILA 3-1: Applying the Four Pillars of OOP](q1/ila_oop.md)
 - [OOPActivity](q1/classObjectUML.md)
+- [OOPActivityPart2](q1/classAttributesMethods.md)

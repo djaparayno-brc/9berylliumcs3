@@ -1,19 +1,19 @@
 # Class Relationships: Association and Multiplicity
 ## Previous Work
-[Part I - Classes and Objects](classObjectUML.md)
-[Part II - Class Attributes and Methods](classAttributesMethods.md)
+- [Part I - Classes and Objects](classObjectUML.md)
+- [Part II - Class Attributes and Methods](classAttributesMethods.md)
 ## Existing Class
-Class: MusicalInstruments
-Description: All musical instruments have their own names, types, and the way they are played.
+- Class: MusicalInstruments
+- Description: All musical instruments have their own names, types, and the way they are played.
 ## New Related Class
-Class: Musicians
-Description: Every musician has a typical instrument they use a lot in their songs and music.
+- Class: Musicians
+- Description: Every musician has a typical instrument they use a lot in their songs and music.
 ## Association
-Relationship: Musicians HAS-A MusicalInstruments.
-Explanation: These two are interconnected, for every musician has at least one instrument.
+- Relationship: Musicians HAS-A MusicalInstruments.
+- Explanation: These two are interconnected, for every musician has at least one instrument.
 ## Multiplicity
-Multiplicity: many-to-many
-Explanation: A musician can play many instruments, and instrument can be played by many musicians.
+- Multiplicity: many-to-many
+- Explanation: A musician can play many instruments, and instrument can be played by many musicians.
 
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](im/classRelationshipDiagram.png)
@@ -23,6 +23,7 @@ Explanation: A musician can play many instruments, and instrument can be played 
 ![Relationship Test Run](im/relationshipTestRun.png)
 ## Object Relationship Diagram
 ![Object Relationship Diagram](im/objectRelationshipDiagram.png)
+
 ## Analysis
 ### What is the association between your two classes?
 ### What multiplicity did you choose and why?

@@ -12,13 +12,13 @@ No major changes were needed from my original design.
 | primary material | str | private | The material is an internal property that should be protected. |
 | price | int | public | The price can be viewed directly by users. |
 ## Updated UML Class Diagram
-![Class Diagram](ClassDiagramSG5(2).png)
+![Class Diagram](im/ClassDiagramSG5(2).png)
 ## Python Implementation
-[View Python Source](classImplementation.py)
+[View Python Source](im/classImplementation.py)
 ## Test Run
-![Test Run](classTestRun.png)
+![Test Run](im/classTestRun.png)
 ## Object Diagram
-![Object Diagram](ObjectDiagram.png)
+![Object Diagram](im/ObjectDiagram.png)
 ## Analysis
 ### Why did you make your chosen attribute private?
 - I made the type and primary material private to protect the object's information. They can only be changed through class methods.

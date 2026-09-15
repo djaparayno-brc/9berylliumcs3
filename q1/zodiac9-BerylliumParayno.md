@@ -70,8 +70,8 @@ else:
 
 ### Valid Output
 
-![Valid Zodiac Output](Screenshot-Zodiac-ValidInput.png)
+![Valid Zodiac Output](im/Screenshot-Zodiac-ValidInput.png)
 
 ### Invalid Output
 
-![Invalid Zodiac Output](Screenshot-Zodiac-InvalidInput.png)
+![Invalid Zodiac Output](im/Screenshot-Zodiac-InvalidInput.png)

@@ -4,14 +4,14 @@
 [classRel](classRelationships.md)
 ## Existing System Description:
 ## Inheritance Relationship
-Parent:
-Child:
-Explanation:
+- Parent:
+- Child:
+- Explanation:
 ## Inheritance UML
 ![Inheritance](images/inheritanceDiagram.png)
 ## Composition/Aggregation
-Relationship:
-Explanation:
+- Relationship:
+- Explanation:
 ## Advanced UML Diagram
 ![Advanced UML](images/advancedClassDiagram.png)
 ## Python Implementation
@@ -22,4 +22,4 @@ Explanation:
 ![Objects](images/advancedObjectDiagram.png)
 
 ## Reflection
-Answers:
+- Answers:

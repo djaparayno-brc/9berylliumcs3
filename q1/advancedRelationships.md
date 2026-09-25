@@ -20,7 +20,7 @@
 ## Test Run
 ![Test](im/advancedTestRun.png)
 ## Object Diagram
-![Objects](images/advancedObjectDiagram.png)
+![Objects](im/advancedObjectDiagram.png)
 
 ## Reflection
 1. Why did you choose your inheritance relationship? Explain why your child class is a type of your

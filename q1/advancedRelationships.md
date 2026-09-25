@@ -9,7 +9,7 @@
 - Child: Guitar
 - Explanation: Guitar is a child class of MusicalInstrument because it inherits the common attributes and methods from it, while also adding a specific data only for guitar, such as the number of strings.
 ## Inheritance UML
-![Inheritance](images/inheritanceDiagram.png)
+![Inheritance](im/inheritanceDiagram.png)
 ## Composition/Aggregation
 - Relationship:
 - Explanation:

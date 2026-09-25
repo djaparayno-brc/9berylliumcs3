@@ -3,10 +3,11 @@
 - [classAttrib](classAttributesMethods.md)
 - [classRel](classRelationships.md)
 ## Existing System Description:
+- There are two connected classes: Musician and MusicalInstrument. MusicalInstrument stores information about instruments, while Musician stores information about musicians and their assigned instruments. Musician can have and play many musical instruments.
 ## Inheritance Relationship
-- Parent:
-- Child:
-- Explanation:
+- Parent: MusicalInstrument
+- Child: Guitar
+- Explanation: Guitar is a child class of MusicalInstrument because it inherits the common attributes and methods from it, while also adding a specific data only for guitar, such as the number of strings.
 ## Inheritance UML
 ![Inheritance](images/inheritanceDiagram.png)
 ## Composition/Aggregation

@@ -14,11 +14,11 @@
 - Relationship: Aggregation
 - Explanation: A musician can have a musical instrument, but the musical instrument can still exist independently from the musician. For me, the instrument is created first and then assigned to the musician.
 ## Advanced UML Diagram
-![Advanced UML](images/advancedClassDiagram.png)
+![Advanced UML](im/advancedClassDiagram.png)
 ## Python Implementation
 [Source Code](advancedRelationships.py)
 ## Test Run
-![Test](images/advancedTestRun.png)
+![Test](im/advancedTestRun.png)
 ## Object Diagram
 ![Objects](images/advancedObjectDiagram.png)
 

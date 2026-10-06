@@ -10,3 +10,4 @@
 - [OOPActivity](q1/classObjectUML.md)
 - [OOPActivityPart2](q1/classAttributesMethods.md)
 - [OOPActivityPart3](q1/classRelationships.md)
+- [OOPActivityPart4](q1/advancedRelationships.md)

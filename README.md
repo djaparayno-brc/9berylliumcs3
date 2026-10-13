@@ -14,4 +14,4 @@
 
 ## Quarter 2 Activities
 - [Study Guide 8 – Encapsulation](q2/sg8_encapsulation.py)
-- Documentation for SG8 Encapsulation: [Study Guide 8 – Encapsulation](q2/images/sg8encapsulation)
+- Documentation for SG8 Encapsulation: [Study Guide 8 – Encapsulation](q2/images/sg8encapsulation.png)

@@ -1,61 +1,52 @@
-#creating class publication
+#Created class publication
 class Publication:
-    def __init__(self, title, author): #title and author are being initialized
-      self.title = title
-      self.author = author
+    def __init__(self, title, author): #self, title, and author are initializeed
+        self.title = title
+        self.author = author
+    def get_title(self) -> str: #the title is given and it is expected to be string
+        return self.title
+    def get_author(self) -> str: #the name of the author is given expected to be string
+        return self.author
+    def set_title(self, title: str): #set the title
+        self.title = title
+    def set_author(self, author: str): #set the author
+        self.author = author
+    def display_info(self):
+        print(f"Title: {self.title}") #the info for publication class such as title and author are displayed
+        print(f"Author: {self.author}")
 
-    def get_title(self) -> str: #getting title expected to be string
-      return self.title
-
-    def get_author(self) -> str:
-      return self.author
-
-    def set_title(self, title: str):
-      return self.title = str(title)
-
-    def set_author(self, author: str):
-      return self.author = str(title)
-
-    def display_info():
-      print (f"Title: {title}")
-      print (f"Author: {author}")
-      
+#class book is created and inherits things from class publication
 class Book(Publication):
-    def __init__(title, author, number_pages):
-        self.number_of_pages = number_pages
+    def __init__(self, title, author, number_pages): #self, title, author and number of pages are initialized
+        super().__init__(title, author) #I used super() to access a parent class from its child class
+        self.number_of_pages = number_pages 
+    def get_number_of_pages(self): #number of pages is given
+        return self.number_of_pages
+    def set_number_of_pages(self, number_pages): #set the number of pages
+        if isinstance(number_pages, int) and number_pages > 0: #constraint: number of pages cannot be less than 0 :(
+            self.number_of_pages = number_pages
+        else:
+            print("Number of pages must not be negative. Try again, it must not be negative this time.") #reply to wrong input
 
-    def get_number_of_pages():
-        return number_pages
-
-    def set_number_of_pages:
-        return self.number_pages = int(number_pages)
-
+#class magazine is created and inherits stuff from its parent class publication
 class Magazine(Publication):
-    def __init__(title, author, issue_number):
-        self.issue_number = issue_number
+    def __init__(self, title, author, issue_number):
+        super().__init__(title, author) #title and author inherited from parent class
+        self.issue_number = issue_number #issue_number is defined
+    def get_issue_number(self):
+        return self.issue_number #get issue number
+    def set_issue_number(self, issue_number): 
+        self.issue_number = int(issue_number) #set issue number integer
 
-    def get_issue_number():
-        return self.issue_number
-
-    def set_issue_number(issue_number): 
-        return self.issue_number = int(issue_number)
-  
-
+#Main
 if __name__ == "__main__":
-    #Objects being created :)
-    pub = Publication("Charles Scribner's Sons", "Ratchiff, R. & Van Dongen, H.")
-    book = Book("The Great Gatsby",  "F. Scott Fitzgerald", 218)
+    pub1 = Publication("Charles Scribner's Sons", "Ratchiff, R. & Van Dongen, H.") #created variables pub1, book1, mag for the source info
+    book1 = Book("The Great Gatsby", "F. Scott Fitzgerald", 218)
     mag = Magazine("National Geographic", "Various Authors", 202)
-
-    #this is how you print the info yes
-    print("Publication Information:")
-    pub.display_info
+    print("Publication Information:") 
+    pub1.display_info()
     print()
     print("Information for book:")
-    book.set_number_of_pages(-310)
-    book.display_info()
-    print(book.get_number_of_pages())
-    print()
-    print("Information for Magazine:")
-    mag.display_info()
-    print(mag.get_issue_number())
+    book1.set_number_of_pages(-310)
+    book1.display_info()
+    #the def functions were used for the final output, in an orderly manner :D

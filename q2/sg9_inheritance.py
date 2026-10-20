@@ -49,4 +49,8 @@ if __name__ == "__main__":
     print("Information for book:")
     book1.set_number_of_pages(-310)
     book1.display_info()
-    #the def functions were used for the final output, in an orderly manner :D
+    print(f"Number of pages: {book1.get_number_of_pages()}")
+    print()
+    print("Information for magazine:")
+    mag.display_info
+    print(f"Issue number: {mag.get_issue_number()}")

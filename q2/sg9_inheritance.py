@@ -52,5 +52,5 @@ if __name__ == "__main__":
     print(f"Number of pages: {book1.get_number_of_pages()}")
     print()
     print("Information for magazine:")
-    mag.display_info
+    mag.display_info()
     print(f"Issue number: {mag.get_issue_number()}")

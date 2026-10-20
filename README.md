@@ -14,4 +14,6 @@
 
 ## Quarter 2 Activities
 - [Study Guide 8 – Encapsulation](q2/sg8_encapsulation.py)
-- Documentation for SG8 Encapsulation: [Study Guide 8 – Encapsulation](q2/images/sg8encapsulation.png)
+- [Output Code for SG 8](q2/images/sg8encapsulation.png)
+- [Study Guide 9 - Inheritance](q2/sg9_inheritance.py)
+- [Output Code for SG 9](q2/images/sg9inheritance.png)

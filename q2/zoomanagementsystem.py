@@ -1,10 +1,9 @@
 #Created class publication
 class Animal:
-    def __init__(self, name): #self, title, and author are initializeed
+    def __init__(self, name):
         self.name = name
-        self.author = author
-    def get_title(self) -> str: #the title is given and it is expected to be string
-        return self.title
+    def eat(self) -> str: #the title is given and it is expected to be string
+        return self.titl
     def get_author(self) -> str: #the name of the author is given expected to be string
         return self.author
     def set_title(self, title: str): #set the title

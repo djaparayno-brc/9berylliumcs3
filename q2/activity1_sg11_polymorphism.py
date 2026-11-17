@@ -1,35 +1,70 @@
-class Patient:
-  def __init__ (self, name: str, bill_amount: float):
-    self.name = name
-    self.bill_amount = bill_amount
+class Patient: # A class called Patient is created:
+    def __init__(self, name: str, bill_amount: float): 
+        self.__name = name
+        self.__bill_amount = bill_amount
 
-  def get_name (self):
-    return self.name
+    def get_name(self) -> str:
+        return self.__name
 
-  def set_name (self, name: str):
-    self.name = name
+    def set_name(self, name: str):
+        self.__name = name
 
-  def get_bill_amount (self):
-    return self.bill_amount
+    def get_bill_amount(self) -> float:
+        return self.__bill_amount
 
-  def set_bill_amount (self, bill_amount: float):
-    self.bill_amount = bill_amount
+    def set_bill_amount(self, bill_amount: float):
+        self.__bill_amount = bill_amount
 
-  def calculate_bill (self, bill_amount: float):
-    return self.bill_amount
+    def calculate_bill(self) -> float:
+        return self.__bill_amount
 
-  def display_patient_type (self):
-    print("Regular Patient")
-    
+    def display_patient_type(self):
+        print("Patient Type: Regular Patient")
+# The regular patient does not have a discount.
+
 class SeniorPatient(Patient):
-  def __init__(self, name: str, bill_amount: float):
-    super().__init__()
-    self.number_of_pages = number_pages 
-  def get_number_of_pages(self):
-      return self.number_of_pages
-   def set_number_of_pages(self, number_pages):
-      if isinstance(number_pages, int) and number_pages > 0:
-            self.number_of_pages = number_pages
-      else:
-            print("Number of pages must not be negative. Try again, it must not be negative this time.") #reply to wrong input
-  
+    # the methods are polymorphed
+    def calculate_bill(self) -> float:
+        return self.get_bill_amount() * 0.80 # apply the senior citizen discount of 20%
+
+    def display_patient_type(self):
+        print("Patient Type: Senior Citizen")
+
+
+class PhilHealthPatient(Patient):
+    # the methods are polymorphed
+    def calculate_bill(self) -> float:
+        return self.get_bill_amount() * 0.85 # apply the philhealth member discount of 15%
+
+    def display_patient_type(self):
+        print("Patient Type: PhilHealth Member")
+
+
+# This is the main code where the functions are called out
+if __name__ == "__main__":
+    print("Hospital Billing System")
+    print("-------------------------")
+    print()
+
+    # For the regular patient:
+    pat1 = Patient("Dexter Josue A. Parayno", 67000.00)
+    print(f"Patient Name: {pat1.get_name()}")
+    pat1.display_patient_type()
+    print(f"Original bill: ₱{pat1.get_bill_amount():,.2f}")
+    print(f"Final bill: ₱{pat1.calculate_bill():,.2f}")
+    print()
+
+    # for the Senior Citizen Patient:
+    pat2 = SeniorPatient("Bato Dela Rosa", 600000.00)
+    print(f"Patient Name: {pat2.get_name()}")
+    pat2.display_patient_type()
+    print(f"Original bill: ₱{pat2.get_bill_amount():,.2f}")
+    print(f"Final bill: ₱{pat2.calculate_bill():,.2f}")
+    print()
+
+    # for the PhilHealth Patient
+    pat3 = PhilHealthPatient("Harry Potter", 9340.00)
+    print(f"Patient Name: {pat3.get_name()}")
+    pat3.display_patient_type()
+    print(f"Original bill: ₱{pat3.get_bill_amount():,.2f}")
+    print(f"Final bill: ₱{pat3.calculate_bill():,.2f}")

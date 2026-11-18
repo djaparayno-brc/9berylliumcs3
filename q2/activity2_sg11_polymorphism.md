@@ -1,9 +1,9 @@
 Instruction: Do what is asked in each item below:
 1. Answer the following questions:
-  a. What is duck typing, as explained in the video?
-  b. What did the Car class need to have so it could work inside the same loop as Dog and
+a. What is duck typing, as explained in the video?
+b. What did the Car class need to have so it could work inside the same loop as Dog and
 Cat, even if it does not inherit from the Animal class?
-3. Create the Python code that:
+4. Create the Python code that:
 a. Creates three classes: Car, Boat, and Drone with a method move().
 move() in the Car class prints "The car drives on the road."
 move() in the Boat class prints "The boat sails on water."
@@ -12,4 +12,4 @@ b. Has a function named start_trip(vehicle), with a parameter vehicle, that simp
 move() method: vehicle.move().
 c. Creates one object of each class.
 d. Calls the start_trip() method for each object.
-4. How does the code in 2.2 demonstrate polymorphism?
+5. How does the code in 2.2 demonstrate polymorphism?

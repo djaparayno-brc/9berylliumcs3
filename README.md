@@ -19,3 +19,4 @@
 - [Output Code for SG 9](q2/images/sg9inheritance.png)
 - [Study Guide 10 - Method Overriding](q2/zoomanagementsystem.py)
 - [Study Guide 11 - Polymorphism - Activity 1](q2/activity1_sg11_polymorphism.py)
+- [Study Guide 11 - Polymorphism - Activity 2](q2/activity2_sg11_polymorphism.py)

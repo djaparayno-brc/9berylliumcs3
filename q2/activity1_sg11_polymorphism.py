@@ -1,24 +1,24 @@
 class Patient: # A class called Patient is created:
-    def __init__(self, name: str, bill_amount: float): 
+    def __init__(self, name: str, bill_amount: float):  # self, name, and bill_amount were initialized with their data typed specified
         self.__name = name
         self.__bill_amount = bill_amount
 
-    def get_name(self) -> str:
+    def get_name(self) -> str:    # Function to get the name of patient
         return self.__name
 
-    def set_name(self, name: str):
+    def set_name(self, name: str): # function to set the name of the patient
         self.__name = name
 
-    def get_bill_amount(self) -> float:
+    def get_bill_amount(self) -> float: # function to get the bill amount for the patient
         return self.__bill_amount
 
-    def set_bill_amount(self, bill_amount: float):
+    def set_bill_amount(self, bill_amount: float): # function to set how much the bill amount is
         self.__bill_amount = bill_amount
 
-    def calculate_bill(self) -> float:
-        return self.__bill_amount
+    def calculate_bill(self) -> float: # function to calculate how much the patient needs to pay, including discounts
+        return self.__bill_amount 
 
-    def display_patient_type(self):
+    def display_patient_type(self): # function to get the patient type
         print("Patient Type: Regular Patient")
 # The regular patient does not have a discount.
 
